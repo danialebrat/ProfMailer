@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73df1486-9a74-49a4-ac66-ddb26df45810" name="Changes" comment="- completing README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="73df1486-9a74-49a4-ac66-ddb26df45810" name="Changes" comment="- completing README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +122,7 @@
       <workItem from="1719459552028" duration="4080000" />
       <workItem from="1719497012963" duration="44000" />
       <workItem from="1719722154237" duration="3036000" />
-      <workItem from="1719726163272" duration="225000" />
+      <workItem from="1719726163272" duration="245000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the project, need to resolve below:&#10;- need to solve duplicate emails&#10;- need to fix errors after finishing &#10;- need to make it independent of python &#10;- make better UI if capable, and make it more dynamic&#10;- optimize it to be faster and better">
       <option name="closed" value="true" />
@@ -183,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719725292950</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="- completing README.md">
+      <option name="closed" value="true" />
+      <created>1719726397624</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719726397624</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
