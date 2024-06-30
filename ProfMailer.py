@@ -97,7 +97,7 @@ class ProfMailerApp:
                 self.progress_queue.put(("update", (sent_count, total_emails)))
                 df.to_csv(self.file_path.get(), index=False)
                 name = df.loc[index, 'name']
-                sleep_time = random.randint(100, 300)
+                sleep_time = random.randint(60, 120)
                 print(f"Sent email to : {name} _ waiting for {sleep_time} seconds to respect limit rate")
                 time.sleep(sleep_time)  # Wait a random time between emails
 
