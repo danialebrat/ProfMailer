@@ -18,7 +18,10 @@ ProfMailer is a desktop application designed to help you efficiently send person
 
 ## How to Use
 
-To use ProfMailer, prepare the following files:
+To use ProfMailer,
+download [the app](https://github.com/danialebrat/ProfMailer/blob/main/dist/ProfMailer.exe) from dist folder
+and prepare the following files:
+
 
 ### CSV File
 
