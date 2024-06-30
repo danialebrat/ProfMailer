@@ -82,8 +82,18 @@ class ProfMailerApp:
             self.progress_queue.put(("error", f"Failed to read CSV file: {e}"))
             return
 
+        # Detect the number of emails to be sent
+        emails_to_send = df[df['send_status'] == 0]
+        num_emails_to_send = len(emails_to_send)
+        print(f"Number of emails to send: {num_emails_to_send}")
+
         total_emails = len(df)
         sent_count = 0
+
+        if num_emails_to_send < 30:
+            sleep_time = 1
+        else:
+            sleep_time = random.randint(60, 120)
 
         for index, row in df.iterrows():
             # skip if we have already sent an email
@@ -97,9 +107,12 @@ class ProfMailerApp:
                 self.progress_queue.put(("update", (sent_count, total_emails)))
                 df.to_csv(self.file_path.get(), index=False)
                 name = df.loc[index, 'name']
-                sleep_time = random.randint(60, 120)
-                print(f"Sent email to : {name} _ waiting for {sleep_time} seconds to respect limit rate")
-                time.sleep(sleep_time)  # Wait a random time between emails
+
+                if sent_count == num_emails_to_send:
+                    print(f"Sent email to: {name} _ This was the last email.")
+                else:
+                    print(f"Sent email to: {name} _ waiting for {sleep_time} seconds to respect limit rate")
+                    time.sleep(sleep_time)  # Wait a random time between emails or 1 second if < 30 emails
 
         self.progress_queue.put(("complete", "Emails sent successfully."))
 
