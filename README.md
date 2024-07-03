@@ -3,6 +3,10 @@
 **Automate the Process of Emailing University Professors for Graduate Positions**
 
 ProfMailer is a desktop application designed to help you efficiently send personalized emails to university professors to inquire about graduate positions. You can run it as a standalone application or modify the open-source files to create your own customized version.
+below is the link to YouTube Tutorial: How to use Profmailer.
+- [Profmailer: Send Automatic Emails to find Graduate Positions](https://youtu.be/U0r9zeGs5ic?si=Cnu6a5rHPxpczyDf)
+
+
 
 ## Requirements
 

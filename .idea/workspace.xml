@@ -126,7 +126,7 @@
       <workItem from="1719760906741" duration="82000" />
       <workItem from="1719763071004" duration="1465000" />
       <workItem from="1719895082473" duration="6000" />
-      <workItem from="1720034335307" duration="364000" />
+      <workItem from="1720034335307" duration="1035000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the project, need to resolve below:&#10;- need to solve duplicate emails&#10;- need to fix errors after finishing &#10;- need to make it independent of python &#10;- make better UI if capable, and make it more dynamic&#10;- optimize it to be faster and better">
       <option name="closed" value="true" />
@@ -216,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720034535977</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="- editing README.md">
+      <option name="closed" value="true" />
+      <created>1720036650324</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720036650324</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
