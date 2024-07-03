@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73df1486-9a74-49a4-ac66-ddb26df45810" name="Changes" comment="- handling bugs and errors&#10;- Finalizing the project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="73df1486-9a74-49a4-ac66-ddb26df45810" name="Changes" comment="- editing README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,6 +126,7 @@
       <workItem from="1719760906741" duration="82000" />
       <workItem from="1719763071004" duration="1465000" />
       <workItem from="1719895082473" duration="6000" />
+      <workItem from="1720034335307" duration="364000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the project, need to resolve below:&#10;- need to solve duplicate emails&#10;- need to fix errors after finishing &#10;- need to make it independent of python &#10;- make better UI if capable, and make it more dynamic&#10;- optimize it to be faster and better">
       <option name="closed" value="true" />
@@ -209,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719764730451</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- editing README.md">
+      <option name="closed" value="true" />
+      <created>1720034535977</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720034535977</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,12 +236,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating the project, need to resolve below:&#10;- need to solve duplicate emails&#10;- need to fix errors after finishing &#10;- need to make it independent of python &#10;- make better UI if capable, and make it more dynamic&#10;- optimize it to be faster and better" />
     <MESSAGE value="Creating the project, need to resolve below:&#10;- solve duplicate emails&#10;- fix errors after finishing &#10;- make it independent of python &#10;- optimize it to be faster and better" />
-    <MESSAGE value="- editing README.md" />
     <MESSAGE value="- finalizing the project" />
     <MESSAGE value="- completing README.md" />
     <MESSAGE value="- adding sample files" />
     <MESSAGE value="- handling bugs and errors&#10;- Finalizing the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="- handling bugs and errors&#10;- Finalizing the project" />
+    <MESSAGE value="- editing README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="- editing README.md" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ProfMailer$ProfMailer.coverage" NAME="ProfMailer Coverage Results" MODIFIED="1719764538619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
