@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73df1486-9a74-49a4-ac66-ddb26df45810" name="Changes" comment="- adding sample files">
+    <list default="true" id="73df1486-9a74-49a4-ac66-ddb26df45810" name="Changes" comment="- handling bugs and errors&#10;- Finalizing the project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProfMailer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProfMailer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,8 @@
       <workItem from="1719722154237" duration="3036000" />
       <workItem from="1719726163272" duration="245000" />
       <workItem from="1719760906741" duration="82000" />
-      <workItem from="1719763071004" duration="1128000" />
+      <workItem from="1719763071004" duration="1465000" />
+      <workItem from="1719895082473" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the project, need to resolve below:&#10;- need to solve duplicate emails&#10;- need to fix errors after finishing &#10;- need to make it independent of python &#10;- make better UI if capable, and make it more dynamic&#10;- optimize it to be faster and better">
       <option name="closed" value="true" />
@@ -201,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719760979753</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="- handling bugs and errors&#10;- Finalizing the project">
+      <option name="closed" value="true" />
+      <created>1719764730451</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719764730451</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,10 +233,11 @@
     <MESSAGE value="- finalizing the project" />
     <MESSAGE value="- completing README.md" />
     <MESSAGE value="- adding sample files" />
-    <option name="LAST_COMMIT_MESSAGE" value="- adding sample files" />
+    <MESSAGE value="- handling bugs and errors&#10;- Finalizing the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="- handling bugs and errors&#10;- Finalizing the project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ProfMailer$ProfMailer.coverage" NAME="ProfMailer Coverage Results" MODIFIED="1718776593525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProfMailer$ProfMailer.coverage" NAME="ProfMailer Coverage Results" MODIFIED="1719764538619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProfMailer$ProfMailer_test.coverage" NAME="ProfMailer_test Coverage Results" MODIFIED="1719171398213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

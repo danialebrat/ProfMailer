@@ -63,6 +63,8 @@ Create a folder containing:
 - Template filenames should follow the format `template_{field}`.
   - Example: `template_AI.html` and `template_Music.html`
 - Use tools like [Word to HTML](https://wordhtml.com/) if you are unfamiliar with HTML.
+- When you edit or create template HTML files, REMEMBER to put Placeholders in correct positions similar to the sample files. 
+- placeholders for template: **{name}** , **{university}**, **{group}**
 
 ### Transcript
 
